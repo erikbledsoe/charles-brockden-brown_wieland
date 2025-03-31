@@ -26,8 +26,15 @@
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
-		<dc:title id="title">Wieland</dc:title>
-		<meta property="file-as" refines="#title">Wieland</meta>
+		<dc:title id="title">Wieland; or the Transformation</dc:title>
+		<meta property="file-as" refines="#title">Wieland; or the Transformation</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">An American Tale</dc:title>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<meta property="file-as" refines="#subtitle">American Tale, An</meta>
+		<dc:title id="fulltitle">Wieland; or the Transformation: An American Tale</dc:title>
+		<meta property="file-as" refines="#fulltitle">Wieland; or the Transformation</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Horror tales</dc:subject>
 		<dc:subject id="subject-2">Psychological fiction</dc:subject>
 		<dc:subject id="subject-3">Epistolary fiction</dc:subject>
